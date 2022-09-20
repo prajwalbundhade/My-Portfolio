@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f2786c0b81.js" crossorigin="anonymous"></script>
+    <title>Prajwal Bundhade - Personal Portfolio Website</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello ! I'm <span>Prajwal</span> <br> Bundhade</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ....................About Section .....................-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/prajwal-portrait.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nesciunt molestias totam
+                        aperiam, quibusdam voluptatem aliquid reiciendis accusamus minus harum autem illum nulla magnam
+                        laudantium quod veritatis excepturi ea asperiores?hcdccdchjhdhcdjhcjdhjcjdchjhcjhjchdchjchjd
+                        Reprehenderit aperiam atque cumque porro consequatur perferendis explicabo labore in dolores id
+                        consectetur unde voluptatum ratione adipisci quam qu</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Dev</span><br> Web Services</li>
+                            <li><span>App Dev</span><br> App Services</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>Web Developer at Noogle </li>
+                            <li><span>2020-2022</span><br> App Developer at Noogle</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 </span><br> Graduated from COEP, Pune</li>
+                            <li><span>2015</span><br> HSC at Pune</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................Services Section .....................-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium pariatur molestiae
+                        consequatur, perspiciatis voluptate dicta facere ab quam?.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium pariatur molestiae
+                        consequatur, perspiciatis voluptate dicta facere ab quam?.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-quinscape"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium pariatur molestiae
+                        consequatur, perspiciatis voluptate dicta facere ab quam?.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ....................Portfolio Section .....................-->
+
+    <div id="portfolio">
+        <div class="container">
+                <h1 class="sub-title">My Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png" alt="work-1">
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <p>This is a calculator made by using javascript technology.lorem hjsdjbdbjdbd jhsdjjsdb It is very fast and scalable.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png" alt="work-2">
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <p>This is a calculator made by using javascript technology.lorem hjsdjbdbjdbd jhsdjjsdb It is very fast and scalable.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png" alt="work-3">
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <p>This is a calculator made by using javascript technology. lorem hjsdjbdbjdbd jhsdjjsdb  It is very fast and scalable.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            
+        </div>
+    </div>
+
+    <!-- ....................Contact Section .....................-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>prajwalb231@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8956598264</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download="" class="btn btn-2">Download CV</a>  
+                </div>
+                
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" id="" required>
+                        <input type="email" name="email" placeholder="Your email" id="" required>
+                        <textarea  name="Message" rows="6" placeholder="Your Message" id="" required></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer><div class="copyright">
+        <p>Copyright © 2022 | Made with <i class="fa-solid fa-heart"></i> by Prajwal Bundhade. </p>
+    </div></footer>
+</body>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</html>
