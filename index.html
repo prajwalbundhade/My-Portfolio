@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f2786c0b81.js"
+            crossorigin="anonymous"></script>
+        <title>Prajwal Bundhade - Full Stack developer, Freelancer</title>
+        <meta name="description" content="Welcome to Prajwal Bundhade's Personal Portfolio Website. Explore my projects, skills, and experience as a Full Stack Developer.">
+        <meta name="keywords" content="Prajwal Bundhade, who is prajwal bundhade, Portfolio, Personal Website, Full Stack Developer, Web Developer">
+        <meta name="author" content="Prajwal Bundhade">
+
+        <!-- google tag -->
+        <meta name="google-site-verification" content="tWDK3vPXhIU-5mbbuLc6_IMCDFWoYxJAqpkztM55VIU" />
+
+        <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prajwalbundhade.in/"> <!-- Replace with your actual website URL -->
+    <meta property="og:title" content="Prajwal Bundhade - Full Stack developer, Freelancer">
+    <meta property="og:description" content="Welcome to Prajwal Bundhade's Personal Portfolio Website. Explore my projects, skills, and experience as a Full Stack Developer.">
+    <meta property="og:image" content="https://prajwalbundhade.in/images/prajw.png"> <!-- Replace with the URL of your website's preview image -->
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://prajwalbundhade.in"> <!-- Replace with your actual website URL -->
+    <meta property="twitter:title" content="Prajwal Bundhade - Personal Portfolio Website">
+    <meta property="twitter:description" content="Welcome to Prajwal Bundhade's Personal Portfolio Website. Explore my projects, skills, and experience as a Full Stack Developer.">
+    <meta property="twitter:image" content="https://prajwalbundhade.in/images/prajw.png"> <!-- Replace with the URL of your website's preview image -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    
+                    <a class="logo" href="/">PSBX</a>
+
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blogs</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark"
+                            onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hello <span class="hand-emoji">&#x1F44B;</span>  ! I'm  <br><span class="first-name"> Prajwal </span> <span class="surname">Bundhade</span></h1>
+                    <p id="dynamic-text"> I'm a</p>
+                    <div class="btn-group">
+                        <a class="btn-1" href="#">Download CV</a>
+                        <a class="btn-3" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ....................About Section .....................-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/prajwal-portrait.png" alt="user">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>I'm a highly motivated and ambitious
+                            individual pursuing a degree in Computer Science
+                            Engineering from P. R. Pote (Patil) College of
+                            Engineering & Management, Amravati. With a passion
+                            for exploring the vast world of technology, I have
+                            already made significant strides in my journey
+                            as a Full Stack Developer.</p>
+                        <div class="tab-titles">
+                            <div class="tab-links active-link"
+                                onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links"
+                                onclick="opentab('experience')">Experience</div>
+                            <div class="tab-links"
+                                onclick="opentab('education')">Education</div>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages</span><br>Java, Python, PHP</li>
+                                <li><span>Front-End</span><br>HTML, CSS,
+                                    Bootstrap, javascript</li>
+                                <li><span>Database</span><br>MySQL</li>
+                                <li><span>Other Skills</span><br>Wordpress,
+                                    Canva, Github, OOP's</li>
+                                <li><span>OS </span><br>Windows, Linux</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Nov 2022 - Present</span><br>Full
+                                    Stack Developer Intern
+                                    at Soft2Technologies
+                                    <p style="padding-top: 7px;">Developed
+                                        dynamic web applications, Collaborated
+                                        with a team to ensure innovative
+                                        solutions for efficient development.
+                                    </p> </li>
+                                <li><span>Julu 2022- Sep 2022</span><br>
+                                    Wordpress
+                                    Developer at Brickbuddy's <p
+                                        style="padding-top: 7px;">Worked closely
+                                        with team and help them to developed
+                                        high quality
+                                        website</p></li>
+
+                                <li><span>March 2022 - Present</span><br>Freelancer
+                                    <p style="padding-top: 7px;">Managed 10+
+                                        projects including 5 International.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-Present </span><br>Pursuing B.E
+                                    at Sant Gadge Baba Amravati University <p>Aggregate:
+                                    </p></li>
+                                <li><span>2020</span><br> HSC from Rural
+                                    Institute Amravatip<p>Aggregate: </p></li>
+                                <li><span>2018</span><br> SSC from Adarsh High
+                                    School, Daryapurp<p>Aggregate: </p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ....................Services Section .....................-->
+        <!-- <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Praesentium pariatur molestiae
+                            consequatur, perspiciatis voluptate dicta facere ab
+                            quam?.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Praesentium pariatur molestiae
+                            consequatur, perspiciatis voluptate dicta facere ab
+                            quam?.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-quinscape"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Praesentium pariatur molestiae
+                            consequatur, perspiciatis voluptate dicta facere ab
+                            quam?.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- ....................Portfolio Section .....................-->
+
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My Portfolio</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png" alt="work-1">
+                        <div class="layer">
+                            <h3>Learnerbits.com</h3>
+                            <p>Built student-centered WordPress website for easy
+                                access to college notes,
+                                question papers, study material, and technical
+                                knowledge</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-2.png" alt="work-2">
+                        <div class="layer">
+                            <h3>Zipkart</h3>
+                            <p>Zipkart is an online e-commerce website
+                                createdusing HTML, CSS,
+                                JavaScript, PHP, MySQL, and Bootstrap.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png" alt="work-3">
+                        <div class="layer">
+                            <h3>Bus Ticket Booking Website </h3>
+                            <p>Developed a user-friendly bus ticket booking
+                                website with schedule
+                                viewing and an admin panel for efficient
+                                management, utilizing PHP,
+                                MySQL, HTML, CSS, and Bootstrap</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="btn">See more</a> -->
+
+            </div>
+        </div>
+
+        <!-- blog section -->
+        <!-- ....................Portfolio Section .....................-->
+
+        <div id="blog">
+            <div class="container">
+                <h2 class="sub-title">My Blogs</h2>
+                <div class="row">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="images/Mojo.webp" alt="Blog 1">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">Mojo🔥 Programming Language</h3>
+                            <p class="blog-author">By Prajwal Bundhade | June 1,
+                                2023</p>
+
+                            <p class="blog-description">The Next Generation
+                                Programming Language for AII. In this article we
+                                are going to learn everything about Mojo
+                                programming language...</p>
+                            <a href="https://learnerbits.com/mojo-programming-language-2023/" class="btn-read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="images/How-to-Use-Midjourney.webp"
+                                alt="Blog 1">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">How to Use Midjourney AI to
+                                Create Stunning Art in 2023</h3>
+                            <p class="blog-author">By Prajwal Bundhade | June 7,
+                                2023</p>
+                            <p class="blog-description">Artificial Intelligence
+                                (AI) is revolutionizing the way we create and
+                                experience art. With the advent of new
+                                technologies..</p>
+                            <a href="https://learnerbits.com/how-to-use-midjourney-ai-to-create-art-in-2023/" class="btn-read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="images/machine.webp" alt="Blog 1">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">How to Start Machine Learning
+                                in 2023?</h3>
+                            <p class="blog-author">By Prajwal Bundhade | July
+                                22, 2023</p>
+                            <p class="blog-description">Machine learning is a
+                                powerful tool that can be used to solve a wide
+                                range of problems. It allows computers to learn
+                                from data, without...</p>
+                            <a href="https://learnerbits.com/how-to-start-machine-learning-in-2023-master-ml/" class="btn-read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Two more similar blog cards go here -->
+
+                </div>
+
+                <a href="https://learnerbits.com" class="btn">See more</a>
+
+            </div>
+        </div>
+        <!-- blog sectiom end -->
+
+        <!-- ....................Contact Section .....................-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2 class="sub-title">Contact Me</h2>
+                        <p><i class="fa-solid fa-envelope"></i>prajwalb231@gmail.com</p>
+                        <p><i class="fa-solid fa-envelope"></i>me@prajwalbundhade.in</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91
+                            8956598264</p>
+                        <p><i class="fa-solid fa-location-dot"></i>Amravati
+                            Maharashtra, IN</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/prajwal-bundhade-a53a76218/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/prajwal-bundhade-a53a76218/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/prajwal-bundhade-a53a76218/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn-2">Download
+                            CV</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form action="https://formspree.io/f/mgejvbjw"
+                        method="POST">
+                            <input type="text" name="name"
+                                placeholder="Your name" id required>
+                            <input type="email" name="email"
+                                placeholder="Your email" id required>
+                            <textarea name="message" rows="6"
+                                placeholder="Your Message" id required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+    <div id="back-to-top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+        <!-- footer -->
+        <footer><div class="copyright">
+                <p>Copyright © 2024 | Made with <i class="fa-solid fa-heart"></i>
+                    by Prajwal Bundhade. </p>
+            </div></footer>
+    </body>
+
+   
+
+<script src="script.js"></script>
+
+</html>
